@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Paras — Data Analyst & Data Scientist. Turning data into insights, dashboards, and intelligent solutions.">
+<meta name="theme-color" content="#090C12">
+<title>Paras | Data Analyst &amp; Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-field" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="navbar" id="navbar">
+  <div class="shell nav-inner">
+    <a class="brand" href="#top">PARAS<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a class="btn-resume" href="assets/resume.pdf" download>Download Resume <span aria-hidden="true">↓</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="shell hero-grid">
+
+      <div class="hero-copy reveal" data-reveal>
+        <p class="eyebrow">Data Analyst <span aria-hidden="true">|</span> Data Scientist</p>
+        <h1 class="hero-headline">Turning data into insights, dashboards, and intelligent solutions.</h1>
+        <p class="hero-sub">I build data pipelines, dashboards, and analytical solutions that transform complex data into clear, actionable insights&mdash;helping stakeholders make informed, data&#8209;driven decisions.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">
+            <span>View My Work</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn-secondary" href="assets/resume.pdf" target="_blank" rel="noopener">
+            <span>View Resume</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-d1" data-reveal>
+        <div class="portrait-card" id="portraitCard">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <img class="portrait-img" src="assets/images/profile.jpg" alt="Portrait of Paras, Data Analyst and Data Scientist" loading="eager"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="portrait-fallback" role="img" aria-label="Add your professional photo">
+            <span>P</span>
+            <p>Add assets/images/profile.jpg</p>
+          </div>
+        </div>
+
+        <div class="dataviz-card" aria-hidden="true">
+          <span class="dataviz-label">Data &rarr; Analysis &rarr; Insight</span>
+          <div class="dataviz-bars" id="dataviz-bars">
+            <i style="--h:32%"></i>
+            <i style="--h:54%"></i>
+            <i style="--h:41%"></i>
+            <i style="--h:78%"></i>
+            <i style="--h:100%"></i>
+            <i style="--h:63%"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT (includes Mission / Vision) ============ -->
+  <section class="section" id="about">
+    <div class="shell">
+      <div class="section-intro reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">About</p>
+      </div>
+      <div class="about-copy reveal reveal-d1" data-reveal>
+        <p class="lead">I am an aspiring Data Analyst with a strong foundation in SQL, Python, Excel, Power BI, Statistics, and Machine Learning.</p>
+        <p>I enjoy transforming raw data into meaningful insights that help organizations make informed, data&#8209;driven decisions. My approach goes beyond tools&mdash;I focus on understanding the <strong>&ldquo;why&rdquo; behind the data</strong>, combining analytical thinking, technical skills, and business context to solve real&#8209;world problems.</p>
+        <p>Through hands&#8209;on projects, I&rsquo;ve built experience in data cleaning, ETL, exploratory data analysis, feature engineering, dashboard development, KPI reporting, and predictive modeling.</p>
+      </div>
+    </div>
+
+    <div class="shell mission-grid mission-spacing">
+      <article class="statement-card reveal" data-reveal>
+        <p class="eyebrow">Mission</p>
+        <h3>Turn data into decisions that create real business value.</h3>
+        <p>Combining analytical thinking, technical skills, and business context to build solutions that stakeholders can actually act on.</p>
+      </article>
+      <article class="statement-card statement-alt reveal reveal-d1" data-reveal>
+        <p class="eyebrow">Vision</p>
+        <h3>Grow into a Data Scientist who solves meaningful real&#8209;world problems.</h3>
+        <p>Combining analytical thinking, machine learning, and business understanding to create practical, intelligent solutions.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="shell">
+      <div class="section-intro reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">Technical Skills</p>
+        <p class="section-desc">Technologies I use to analyze data, build decision&#8209;support tools, and develop predictive solutions.</p>
+      </div>
+
+      <div class="card-grid card-grid-4">
+        <article class="skill-cat-card reveal" data-reveal>
+          <h3>Data Analytics</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">NumPy</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Statistics</span>
+            <span class="skill-pill">Matplotlib</span>
+            <span class="skill-pill">Seaborn</span>
+          </div>
+        </article>
+
+        <article class="skill-cat-card reveal reveal-d1" data-reveal>
+          <h3>Business Intelligence</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Power BI</span>
+            <span class="skill-pill">DAX</span>
+            <span class="skill-pill">Excel</span>
+          </div>
+        </article>
+
+        <article class="skill-cat-card reveal reveal-d2" data-reveal>
+          <h3>Machine Learning</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">Feature Engineering</span>
+            <span class="skill-pill">Regression</span>
+            <span class="skill-pill">Classification</span>
+          </div>
+        </article>
+
+        <article class="skill-cat-card reveal reveal-d3" data-reveal>
+          <h3>Tools &amp; Development</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">Jupyter</span>
+            <span class="skill-pill">VS Code</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="shell">
+      <div class="section-intro reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">Experience</p>
+        <p class="section-desc">Hands&#8209;on experience across data analytics, business intelligence, machine learning, and Python development&mdash;building practical solutions from data and turning analysis into actionable insights.</p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- 01 -->
+        <article class="timeline-item exp-card reveal" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-box">
+            <div class="exp-top">
+              <span class="exp-index-badge">01</span>
+              <span class="exp-date">Jun &ndash; Jul 2026 &middot; Remote</span>
+            </div>
+            <h3 class="exp-role">Data Science &amp; Machine Learning Intern</h3>
+            <p class="exp-company">BR TechGeeks Private Limited</p>
+
+            <div class="chips">
+              <span>Machine Learning</span><span>Python</span><span>Scikit-learn</span><span>Streamlit</span>
+            </div>
+
+            <button class="exp-toggle" data-toggle="exp-detail-1" aria-expanded="false" aria-controls="exp-detail-1">
+              <span>View Details</span>
+              <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+
+            <div class="exp-detail" id="exp-detail-1">
+              <div class="exp-detail-inner">
+                <p class="exp-label">What I Worked On</p>
+                <ul class="timeline-list">
+                  <li>Developed an end&#8209;to&#8209;end ML pipeline for customer churn prediction.</li>
+                  <li>Achieved <strong>96.45% accuracy</strong> and <strong>0.992 ROC&#8209;AUC</strong>.</li>
+                  <li>Built an interactive <strong>Streamlit</strong> application for real&#8209;time churn predictions.</li>
+                  <li>Created churn analytics dashboards to support customer retention decisions.</li>
+                </ul>
+
+                <div class="exp-result">
+                  <span>96.45% Accuracy</span><span>0.992 ROC&#8209;AUC</span>
+                </div>
+
+                <button class="exp-action" data-scroll-to="project-churn">
+                  View Project <span class="btn-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="timeline-item exp-card reveal reveal-d1" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-box">
+            <div class="exp-top">
+              <span class="exp-index-badge">02</span>
+              <span class="exp-date">Jul &ndash; Aug 2025 &middot; Remote</span>
+            </div>
+            <h3 class="exp-role">Data Analytics Intern</h3>
+            <p class="exp-company">Pickl.AI / TransOrganAnalytics</p>
+
+            <div class="chips">
+              <span>Data Analytics</span><span>Python</span><span>EDA</span><span>Machine Learning</span>
+            </div>
+
+            <button class="exp-toggle" data-toggle="exp-detail-2" aria-expanded="false" aria-controls="exp-detail-2">
+              <span>View Details</span>
+              <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+
+            <div class="exp-detail" id="exp-detail-2">
+              <div class="exp-detail-inner">
+                <p class="exp-label">What I Worked On</p>
+                <ul class="timeline-list">
+                  <li>Collected, cleaned, and analyzed IPL match datasets using Python.</li>
+                  <li>Performed exploratory data analysis and feature engineering.</li>
+                  <li>Built visualizations using <strong>Matplotlib</strong> and <strong>Seaborn</strong>.</li>
+                  <li>Developed and evaluated a <strong>Random Forest Classifier</strong> for IPL match outcome prediction.</li>
+                </ul>
+
+                <div class="exp-result">
+                  <span>68% Model Accuracy</span>
+                </div>
+
+                <button class="exp-action" data-scroll-to="project-ipl">
+                  View Project <span class="btn-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="timeline-item exp-card reveal reveal-d2" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-box">
+            <div class="exp-top">
+              <span class="exp-index-badge">03</span>
+              <span class="exp-date">Jul &ndash; Aug 2024 &middot; Remote</span>
+            </div>
+            <h3 class="exp-role">Data Analytics Intern</h3>
+            <p class="exp-company">AppSquadz Technologies</p>
+
+            <div class="chips">
+              <span>SQL</span><span>Excel</span><span>Business Intelligence</span><span>Data Analysis</span>
+            </div>
+
+            <button class="exp-toggle" data-toggle="exp-detail-3" aria-expanded="false" aria-controls="exp-detail-3">
+              <span>View Details</span>
+              <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+
+            <div class="exp-detail" id="exp-detail-3">
+              <div class="exp-detail-inner">
+                <p class="exp-label">What I Worked On</p>
+                <ul class="timeline-list">
+                  <li>Analyzed <strong>149K+ transaction records</strong> using SQL and Excel.</li>
+                  <li>Built an interactive Excel dashboard tracking <strong>$98K+ in sales</strong>.</li>
+                  <li>Identified coffee as the top revenue contributor at <strong>39%</strong>.</li>
+                  <li>Identified peak morning demand patterns to support business decisions.</li>
+                  <li>Performed data cleaning, validation, and preprocessing.</li>
+                </ul>
+
+                <div class="exp-result">
+                  <span>$98K+ Sales Tracked</span>
+                </div>
+
+                <button class="exp-action" data-scroll-to="project-coffee">
+                  View Project <span class="btn-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS (Machine Learning shown first) ============ -->
+  <section class="section section-alt" id="work">
+    <div class="shell">
+      <div class="section-intro reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">Projects</p>
+      </div>
+
+      <div class="filters reveal" data-reveal role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="analytics-bi" role="tab" aria-selected="false">Analytics &amp; BI</button>
+        <button class="filter-btn" data-filter="ml" role="tab" aria-selected="false">Machine Learning</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- 01 — Customer Churn (internship) -->
+        <article class="project-card reveal" data-reveal data-category="ml" id="project-churn">
+          <div class="project-media">
+            <img src="assets/images/projects/customer-churn-prediction.png" alt="Customer Churn Prediction Streamlit app" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>Customer Churn Prediction System</h3>
+            <p class="project-desc">Built an end&#8209;to&#8209;end machine learning application to predict customer churn, analyze churn behavior, and support data&#8209;driven retention strategies.</p>
+            <div class="project-metrics"><span>96.45% Accuracy</span><span>0.992 ROC&#8209;AUC</span></div>
+            <div class="chips"><span>Python</span><span>Scikit-learn</span><span>Streamlit</span><span>Plotly</span></div>
+            <button class="project-toggle" data-toggle="case-1" aria-expanded="false" aria-controls="case-1">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-1">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Businesses need to identify customers at risk of leaving and understand factors driving churn.</p>
+              <h4>Objective</h4>
+              <p>Predict customer churn, identify key churn drivers, and support customer retention decisions.</p>
+              <h4>Data</h4>
+              <p>Telecom customer data including demographics, contracts, payment methods, charges, tenure, and other customer attributes.</p>
+              <h4>Approach</h4>
+              <ul><li>Data cleaning and EDA</li><li>Feature engineering</li><li>Data preprocessing</li><li>Model training and evaluation</li><li>Interactive churn analytics</li><li>Streamlit deployment</li></ul>
+              <h4>Model Performance</h4>
+              <p>96.45% Accuracy &middot; 96.0% Precision &middot; 90.0% Recall &middot; 0.992 ROC&#8209;AUC</p>
+              <h4>Business Value</h4>
+              <p>Helps businesses identify at&#8209;risk customers, understand churn patterns, and support targeted retention strategies.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/Customer-Churn-Prediction-System" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="https://paras-customer-churn-prediction-system.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 — Ecommerce Return Prediction -->
+        <article class="project-card reveal reveal-d1" data-reveal data-category="ml">
+          <div class="project-media">
+            <img src="assets/images/projects/Ecommerce_project.png" alt="Ecommerce Order Return Prediction app" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>Ecommerce Order Return Prediction</h3>
+            <p class="project-desc">Built an end&#8209;to&#8209;end machine learning solution to predict whether an e&#8209;commerce order is likely to be returned, enabling proactive decisions before shipping.</p>
+            <div class="project-metrics"><span>67% Accuracy</span><span>0.73 ROC&#8209;AUC</span></div>
+            <div class="chips"><span>Python</span><span>CatBoost</span><span>Scikit-learn</span><span>Streamlit</span><span>Plotly</span></div>
+            <button class="project-toggle" data-toggle="case-2" aria-expanded="false" aria-controls="case-2">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-2">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Product returns increase operational costs and affect customer satisfaction.</p>
+              <h4>Objective</h4>
+              <p>Predict return probability and provide risk&#8209;based recommendations for proactive order decisions.</p>
+              <h4>Data</h4>
+              <p>Customer, product, and order information.</p>
+              <h4>Approach</h4>
+              <ul><li>Customer, product, and order feature preparation</li><li>CatBoost classification</li><li>Return probability estimation</li><li>Risk&#8209;level recommendations</li><li>Streamlit deployment</li></ul>
+              <h4>Model Performance</h4>
+              <p>67% Accuracy &middot; 0.73 ROC&#8209;AUC</p>
+              <h4>Business Value</h4>
+              <p>Helps identify potentially high&#8209;risk orders before shipping and supports proactive review of return&#8209;prone orders.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/Ecommerce-Order-Return-Prediction" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="https://ecommerce-order-return-prediction.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 — IPL Match Winner (internship) -->
+        <article class="project-card reveal reveal-d2" data-reveal data-category="ml" id="project-ipl">
+          <div class="project-media">
+            <img src="assets/images/projects/ipl_project.png" alt="IPL Match Winner Prediction Streamlit app" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>IPL Match Winner Prediction</h3>
+            <p class="project-desc">Built a machine learning application that predicts IPL match winners using historical match data and an interactive Streamlit interface.</p>
+            <div class="project-metrics"><span>68% Accuracy</span></div>
+            <div class="chips"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Random Forest</span><span>Streamlit</span></div>
+            <button class="project-toggle" data-toggle="case-3" aria-expanded="false" aria-controls="case-3">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-3">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Explore factors such as teams, toss decisions, venue, and location that influence IPL match outcomes.</p>
+              <h4>Objective</h4>
+              <p>Develop a machine learning model to predict IPL match winners.</p>
+              <h4>Data</h4>
+              <p>Historical IPL match data containing teams, toss information, venue, city, and match winner.</p>
+              <h4>Approach</h4>
+              <ul><li>Data cleaning and preprocessing</li><li>Feature selection</li><li>Categorical encoding</li><li>Feature engineering</li><li>Random Forest classification</li><li>Feature importance analysis</li><li>Streamlit deployment</li></ul>
+              <h4>Model Performance</h4>
+              <p>68% Accuracy</p>
+              <h4>Business Value</h4>
+              <p>Demonstrates how historical sports data can be transformed into predictive insights while identifying influential factors behind outcomes.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/IPL-Match-Outcome-Prediction" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 — Pizza Sales -->
+        <article class="project-card reveal" data-reveal data-category="analytics-bi">
+          <div class="project-media">
+            <img src="assets/images/projects/Pizza Sales Analysis & Power BI Dashboard.png" alt="Pizza Sales Analysis dashboard" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>Pizza Sales Analysis &amp; Power BI Dashboard</h3>
+            <p class="project-desc">Analyzed pizza sales data using SQL and Power BI to uncover product performance, revenue trends, and customer ordering patterns.</p>
+            <div class="project-metrics"><span>21K+ Orders</span><span>50K+ Units</span><span>$818K+ Revenue</span></div>
+            <div class="chips"><span>SQL</span><span>Power BI</span><span>DAX</span></div>
+            <button class="project-toggle" data-toggle="case-4" aria-expanded="false" aria-controls="case-4">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-4">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Understand sales performance, product demand, and ordering patterns to support restaurant decisions.</p>
+              <h4>Objective</h4>
+              <p>Build an interactive dashboard for sales and revenue analysis.</p>
+              <h4>Data</h4>
+              <p>Orders, order details, pizza products, sizes, prices, and categories.</p>
+              <h4>Approach</h4>
+              <ul><li>SQL analysis and validation</li><li>Power BI data modeling &amp; DAX</li><li>Interactive dashboard with KPIs and filters</li></ul>
+              <h4>Key Insights</h4>
+              <ul><li>Large pizzas generate the highest revenue.</li><li>Chicken and Classic are top&#8209;performing categories.</li><li>Orders peak during lunch and dinner.</li></ul>
+              <h4>Business Value</h4>
+              <p>Supports pricing, promotions, inventory, and staffing decisions.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/Pizza-Sales-PowerBI-Dashboard" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 — Retail Performance -->
+        <article class="project-card reveal reveal-d1" data-reveal data-category="analytics-bi">
+          <div class="project-media">
+            <img src="assets/images/projects/Retail Business Performance Dashboard.png" alt="Retail Business Performance dashboard" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>Retail Business Performance Dashboard</h3>
+            <p class="project-desc">Interactive Power BI dashboard analyzing sales trends, customer behavior, regional performance, product categories, and shipping insights.</p>
+            <div class="project-metrics"><span>$2.26M Sales</span><span>5K Orders</span><span>793 Customers</span></div>
+            <div class="chips"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Excel / CSV</span></div>
+            <button class="project-toggle" data-toggle="case-5" aria-expanded="false" aria-controls="case-5">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-5">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Businesses need a centralized way to monitor sales, customer, regional, product, and shipping performance.</p>
+              <h4>Objective</h4>
+              <p>Build an interactive BI dashboard that transforms sales data into actionable business insights.</p>
+              <h4>Data</h4>
+              <p>Sales data covering products, customers, categories, regions, cities, and shipping information.</p>
+              <h4>Approach</h4>
+              <ul><li>Power Query data cleaning</li><li>Data modeling</li><li>DAX measures</li><li>Interactive visualizations and filters</li></ul>
+              <h4>Key Insights</h4>
+              <ul>
+                <li>Technology generated the highest revenue.</li>
+                <li>Standard Class contributed the most sales.</li>
+                <li>Western region recorded the highest sales.</li>
+                <li>Sales grew consistently from 2015&ndash;2018.</li>
+                <li>Phones and Chairs were top&#8209;performing sub&#8209;categories.</li>
+              </ul>
+              <h4>Business Value</h4>
+              <p>Helps stakeholders monitor performance, identify profitable segments, and support shipping and strategic planning decisions.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/Sales-Performance-Dashboard" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 — Coffee Shop (internship) -->
+        <article class="project-card reveal reveal-d2" data-reveal data-category="analytics-bi" id="project-coffee">
+          <div class="project-media">
+            <img src="assets/images/projects/Coffee Shop Analytics Dashboard.png" alt="Coffee Shop Analytics dashboard" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>Coffee Shop Analytics Dashboard</h3>
+            <p class="project-desc">Analyzed coffee shop transactions to understand customer behavior, product demand, store performance, and ordering patterns.</p>
+            <div class="project-metrics"><span>$98K+ Sales</span><span>21K Footfall</span><span>$4.66 Avg. Bill</span></div>
+            <div class="chips"><span>SQL</span><span>Excel</span><span>Pivot Tables</span><span>Dashboarding</span></div>
+            <button class="project-toggle" data-toggle="case-6" aria-expanded="false" aria-controls="case-6">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-6">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Understand customer purchasing behavior, product demand, store performance, and peak ordering periods.</p>
+              <h4>Objective</h4>
+              <p>Build an interactive dashboard to monitor coffee shop performance and customer trends.</p>
+              <h4>Data</h4>
+              <p>Transaction date, time, store location, product category, product type, size, quantity, price, and sales amount.</p>
+              <h4>Approach</h4>
+              <ul><li>Data cleaning and validation</li><li>SQL analysis</li><li>Pivot Tables and Pivot Charts</li><li>KPI cards and interactive slicers</li></ul>
+              <h4>Key Insights</h4>
+              <ul>
+                <li>Morning hours have the highest customer activity.</li>
+                <li>Coffee contributes the highest revenue share.</li>
+                <li>Astoria generated the highest revenue.</li>
+                <li>Large and Regular sizes account for most orders.</li>
+              </ul>
+              <h4>Business Value</h4>
+              <p>Supports inventory planning, product promotion, customer engagement, and store&#8209;level decisions.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/Coffee-Shop-Sales-Analysis" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 07 — SQL Bookstore -->
+        <article class="project-card reveal" data-reveal data-category="analytics-bi">
+          <div class="project-media">
+            <img src="assets/images/projects/SQL Bookstore Database.png" alt="SQL Bookstore Database schema" loading="lazy"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('media-empty');">
+            <span class="media-fallback">Project Screenshot</span>
+          </div>
+          <div class="project-body">
+            <h3>SQL Bookstore Database</h3>
+            <p class="project-desc">Designed and implemented a relational bookstore database to organize books, authors, publishers, and genres for structured SQL analysis.</p>
+            <div class="project-metrics" aria-hidden="true">&nbsp;</div>
+            <div class="chips"><span>MySQL</span><span>SQL</span><span>Relational Database</span><span>Joins</span></div>
+            <button class="project-toggle" data-toggle="case-7" aria-expanded="false" aria-controls="case-7">
+              View Case Study <span class="btn-arrow" aria-hidden="true">↓</span>
+            </button>
+          </div>
+          <div class="case-study" id="case-7">
+            <div class="case-inner">
+              <h4>Business Problem</h4>
+              <p>Bookstore information needs to be organized across connected entities for efficient querying and analysis.</p>
+              <h4>Objective</h4>
+              <p>Build a relational database that enables structured SQL&#8209;based analysis.</p>
+              <h4>Data</h4>
+              <p>Books &middot; Authors &middot; Publishers &middot; Genres</p>
+              <h4>Approach</h4>
+              <ul><li>Database and table design</li><li>Primary and foreign keys</li><li>Data management</li><li>SQL filtering and aggregation</li><li>Joins and relational analysis</li></ul>
+              <h4>Key Capabilities</h4>
+              <p>Database Design &middot; SQL Queries &middot; Joins &middot; Aggregations &middot; Relational Modeling</p>
+              <h4>Business Value</h4>
+              <p>Provides a structured foundation for querying and analyzing bookstore information.</p>
+              <div class="case-links">
+                <a href="https://github.com/Paras0205/SQL-Bookstore-Database" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="shell">
+      <div class="section-intro reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">Freelance Services</p>
+        <h2 class="section-title section-title-sm">Data solutions for your business.</h2>
+        <p class="section-desc">From raw data to insights, dashboards, automation, and intelligent solutions, I help turn data into something useful.</p>
+      </div>
+
+      <div class="card-grid card-grid-3">
+        <article class="service-card reveal" data-reveal>
+          <span class="service-number">01</span>
+          <h3>Data Entry &amp; Management</h3>
+          <p>Clean, organized, ready&#8209;to&#8209;use data</p>
+          <div class="chips"><span>Data Entry</span><span>Data Cleaning</span><span>Excel</span></div>
+        </article>
+
+        <article class="service-card reveal reveal-d1" data-reveal>
+          <span class="service-number">02</span>
+          <h3>Data Analysis</h3>
+          <p>Find the story hiding in your numbers</p>
+          <div class="chips"><span>Python</span><span>SQL</span><span>Statistics</span></div>
+        </article>
+
+        <article class="service-card reveal reveal-d2" data-reveal>
+          <span class="service-number">03</span>
+          <h3>BI &amp; Dashboards</h3>
+          <p>Live dashboards you can check in seconds</p>
+          <div class="chips"><span>Power BI</span><span>Excel</span><span>DAX</span></div>
+        </article>
+
+        <article class="service-card reveal" data-reveal>
+          <span class="service-number">04</span>
+          <h3>Automation &amp; Reporting</h3>
+          <p>Stop building the same report by hand every week</p>
+          <div class="chips"><span>Python</span><span>SQL</span><span>Automation</span></div>
+        </article>
+
+        <article class="service-card reveal reveal-d1" data-reveal>
+          <span class="service-number">05</span>
+          <h3>Machine Learning Solutions</h3>
+          <p>Predict what&rsquo;s coming, not just report what happened</p>
+          <div class="chips"><span>Scikit-learn</span><span>Regression</span><span>Classification</span></div>
+        </article>
+
+        <article class="service-card reveal reveal-d2" data-reveal>
+          <span class="service-number">06</span>
+          <h3>AI&#8209;Powered Solutions</h3>
+          <p>Put AI to work on your data and workflows</p>
+          <div class="chips"><span>AI</span><span>LLMs</span><span>Automation</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section cta-section">
+    <div class="shell">
+      <div class="cta-card reveal" data-reveal>
+
+        <div class="cta-main">
+          <p class="eyebrow">Let&rsquo;s Work Together</p>
+          <h2>Let&rsquo;s build something with your data.</h2>
+          <p class="cta-sub">Whether you need data organized, analyzed, visualized, automated, or turned into an intelligent solution, let&rsquo;s discuss what you&rsquo;re trying to achieve.</p>
+          <a class="btn btn-primary" href="#contact">
+            <span>Let&rsquo;s Talk</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="cta-status" aria-hidden="true">
+          <div class="cta-status-row">
+            <span class="status-dot"></span>
+            <span>Available for work</span>
+          </div>
+          <div class="cta-status-divider"></div>
+          <div class="cta-status-list">
+            <div><span class="cta-status-label">Full&#8209;time roles</span><span class="cta-status-val">Open</span></div>
+            <div><span class="cta-status-label">Freelance projects</span><span class="cta-status-val">Open</span></div>
+            <div><span class="cta-status-label">Response time</span><span class="cta-status-val">&lt; 24h</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt" id="contact">
+    <div class="shell contact-grid">
+      <div class="reveal" data-reveal>
+        <p class="eyebrow eyebrow-lg">Contact</p>
+        <p class="section-desc contact-desc">I&rsquo;m open to Data Analytics and Data Science opportunities, freelance projects, and collaborations.</p>
+
+        <div class="contact-links">
+          <a class="contact-card" href="mailto:parasdhankhar02@gmail.com">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-val">parasdhankhar02@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/paras-dhankhar/" target="_blank" rel="noopener">
+            <span class="contact-card-label">LinkedIn</span>
+            <span class="contact-card-val">Connect with me <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="contact-card" href="https://github.com/Paras0205" target="_blank" rel="noopener">
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-val">View my work <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="contact-card" href="https://wa.me/919999120571" target="_blank" rel="noopener">
+            <span class="contact-card-label">WhatsApp</span>
+            <span class="contact-card-val">+91 9896490226 <span aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </div>
+
+      <form
+  class="contact-form reveal reveal-d1"
+  data-reveal
+  id="contactForm"
+  action="https://formspree.io/f/xnpappqn"
+  method="POST"
+  novalidate
+>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required autocomplete="name">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">
+          <span>Send Message</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <p class="footer-meta">&copy; <span id="year"></span> Paras &middot; Data Analyst</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
